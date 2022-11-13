@@ -1,0 +1,10 @@
+.message.blue {
+  background-color: lightblue;
+}
+.message.pink {
+  background-color: pink;
+}
+.person span,
+.person-2 span {
+  color: gray;
+}

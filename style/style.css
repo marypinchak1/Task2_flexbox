@@ -1,0 +1,43 @@
+@import url("variables.css");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+.container,
+.container-2 {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+.person,
+.person-2 {
+  width: 25vw;
+  display: flex;
+}
+.person {
+  justify-content: right;
+}
+.person span {
+  margin-left: 7px;
+}
+.message {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+.message.blue {
+  margin-left: 25vw;
+  border-radius: 20px 20px 0 20px;
+}
+.message.pink {
+  border-radius: 20px 20px 20px 0;
+}
+.message p {
+  margin: 0 20px;
+  font-size: large;
+}
+.person span,
+.person-2 span {
+  font-size: smaller;
+}
